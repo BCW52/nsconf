@@ -1,0 +1,14 @@
+
+; Panel %version%
+; Zone file for ns1.flamelancer.com
+$TTL 14400
+ns1.flamelancer.com.      86400      IN      SOA      ns1.flamelancer.com.      info.centos-webpanel.com.      (
+      				2013071600 ;serial, todays date+todays
+      				86400 ;refresh, seconds
+      				7200 ;retry, seconds
+      				3600000 ;expire, seconds
+      				86400 ;minimum, seconds
+      )
+ns1.flamelancer.com. 86400 IN NS ns1.flamelancer.com.
+ns1.flamelancer.com. 86400 IN NS ns2.flamelancer.com.
+ns1.flamelancer.com. 14400 IN A 167.235.68.64
