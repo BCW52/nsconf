@@ -13,7 +13,7 @@ shutting down: flushing changes
 stopping command channel on 127.0.0.1#953
 stopping command channel on ::1#953
 no longer listening on 127.0.0.1#53
-no longer listening on 167.235.68.64#53
+no longer listening on 192.9.182.74#53
 no longer listening on ::1#53
 exiting
 managed-keys-zone: journal file is out of date: removing journal file
@@ -77,7 +77,7 @@ shutting down: flushing changes
 stopping command channel on 127.0.0.1#953
 stopping command channel on ::1#953
 no longer listening on 127.0.0.1#53
-no longer listening on 167.235.68.64#53
+no longer listening on 192.9.182.74#53
 no longer listening on ::1#53
 exiting
 managed-keys-zone: journal file is out of date: removing journal file
@@ -102,7 +102,7 @@ shutting down: flushing changes
 stopping command channel on 127.0.0.1#953
 stopping command channel on ::1#953
 no longer listening on 127.0.0.1#53
-no longer listening on 167.235.68.64#53
+no longer listening on 192.9.182.74#53
 no longer listening on ::1#53
 exiting
 managed-keys-zone: loaded serial 5

@@ -11,4 +11,4 @@ ns1.bulksmsbd.online.      86400      IN      SOA      ns1.bulksmsbd.online.    
       )
 ns1.bulksmsbd.online. 86400 IN NS ns1.bulksmsbd.online.
 ns1.bulksmsbd.online. 86400 IN NS ns2.bulksmsbd.online.
-ns1.bulksmsbd.online. 14400 IN A 167.235.68.64
+ns1.bulksmsbd.online. 14400 IN A 192.9.182.74

@@ -9,7 +9,7 @@ $TTL 14400
 				86400 )         ; minimum, seconds
 @	86400	IN	NS		ns1.bulksmsbd.online.
 @	86400	IN	NS		ns2.bulksmsbd.online.
-@ IN A 167.235.68.64
+@ IN A 192.9.182.74
 localhost.access.bulksmsbd.online. IN A 127.0.0.1
 @ IN MX 0 access.bulksmsbd.online.
 mail 14400 IN CNAME access.bulksmsbd.online.
@@ -17,11 +17,11 @@ smtp 14400 IN CNAME access.bulksmsbd.online.
 pop  14400 IN CNAME access.bulksmsbd.online.
 pop3 14400 IN CNAME access.bulksmsbd.online.
 imap 14400 IN CNAME access.bulksmsbd.online.
-webmail 14400 IN A 167.235.68.64
-cpanel 14400 IN A 167.235.68.64
-cwp 14400 IN A 167.235.68.64
+webmail 14400 IN A 192.9.182.74
+cpanel 14400 IN A 192.9.182.74
+cwp 14400 IN A 192.9.182.74
 www 14400 IN CNAME access.bulksmsbd.online.
 ftp 14400 IN CNAME access.bulksmsbd.online.
 _dmarc	14400	IN	TXT	"v=DMARC1; p=none"
-@	14400	IN	TXT	"v=spf1 +a +mx +ip4:167.235.68.64 ~all"
+@	14400	IN	TXT	"v=spf1 +a +mx +ip4:192.9.182.74 ~all"
 default._domainkey 14400 IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDB7LFggnUjttrX2mMprPByNfxDwxOPNblFTQeFlGg1TRnUJSB5ZRgXQZEbJJjvIh1KypdDS0Z8vFxt6b95GSpBRaUiMYk5dfbjBdhu+XeobHaRtYQHHnzH2yHbQKrqegc5LXrPNWDWi6JhLixQOvCUms6hxWiZ4q4PTDuzATDB3QIDAQAB"
