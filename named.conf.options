@@ -1,0 +1,20 @@
+acl "trusted" {
+        192.9.182.74;    # ns
+        192.9.182.74;    # ns
+        192.9.182.74;    # host
+        192.9.182.74;
+};
+
+options {
+        directory "/var/cache/bind";
+        
+        recursion yes;                 # enables recursive queries
+        allow-recursion { trusted; };  # allows recursive queries from "trusted" clients
+        listen-on { 192.9.182.74; };   # ns1 private IP address - listen on private network only
+        allow-transfer { none; };      # disable zone transfers by default
+
+        forwarders {
+                8.8.8.8;
+                8.8.4.4;
+        };
+}

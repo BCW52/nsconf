@@ -10,7 +10,6 @@ $TTL 14400
 @	86400	IN	NS		ns1.bulksmsbd.online.
 @	86400	IN	NS		ns2.bulksmsbd.online.
 @ IN A 192.9.182.74
-localhost.access.bulksmsbd.online. IN A 127.0.0.1
 @ IN MX 0 access.bulksmsbd.online.
 mail 14400 IN CNAME access.bulksmsbd.online.
 smtp 14400 IN CNAME access.bulksmsbd.online.

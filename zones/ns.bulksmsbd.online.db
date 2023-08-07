@@ -1,0 +1,19 @@
+$TTL    604800
+@       IN      SOA     ns1.bulksmsbd.online. info.ns1.bulksmsbd.online. (
+                  3     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+             604800 )   ; Negative Cache TTL
+;
+;
+name servers - NS records
+    IN      NS      ns1.bulksmsbd.online.
+    IN      NS      ns2.bulksmsbd.online.
+; name servers - A records
+ns1.bulksmsbd.online.          IN      A       192.9.182.74
+ns2.bulksmsbd.online.          IN      A       192.9.182.74
+
+; 10.128.0.0/16 - A records
+host1.bulksmsbd.online.        IN      A      192.9.182.74
+host2.bulksmsbd.online.        IN      A      192.9.182.74

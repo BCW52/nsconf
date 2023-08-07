@@ -2,13 +2,7 @@
 ; Panel %version%
 ; Zone file for ns2.bulksmsbd.online
 $TTL 14400
-ns2.bulksmsbd.online.      86400      IN      SOA      ns1.bulksmsbd.online.      info.bulksmsbd.online.      (
-      				2013071600 ;serial, todays date+todays
-      				86400 ;refresh, seconds
-      				7200 ;retry, seconds
-      				3600000 ;expire, seconds
-      				86400 ;minimum, seconds
-      )
+ns2.bulksmsbd.online.      86400      IN      SOA      ns1.bulksmsbd.online.
 ns2.bulksmsbd.online. 86400 IN NS ns1.bulksmsbd.online.
 ns2.bulksmsbd.online. 86400 IN NS ns2.bulksmsbd.online.
 ns2.bulksmsbd.online. 14400 IN A 192.9.182.74
