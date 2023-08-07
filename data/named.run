@@ -67,10 +67,10 @@ configuring command channel from '/etc/rndc.key'
 configuring command channel from '/etc/rndc.key'
 reloading configuration succeeded
 reloading zones succeeded
-zone access.flamelancer.com/IN: loaded serial 2022062899
+zone access.bulksmsbd.online/IN: loaded serial 2022062899
 all zones loaded
 running
-zone access.flamelancer.com/IN: sending notifies (serial 2022062899)
+zone access.bulksmsbd.online/IN: sending notifies (serial 2022062899)
 managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
 received control channel command 'stop'
 shutting down: flushing changes
@@ -86,15 +86,15 @@ zone 0.in-addr.arpa/IN: loaded serial 0
 zone localhost/IN: loaded serial 0
 zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
 zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
-zone access.flamelancer.com/IN: loaded serial 2022062900
-zone ns2.flamelancer.com/IN: loaded serial 2013071600
+zone access.bulksmsbd.online/IN: loaded serial 2022062900
+zone ns2.bulksmsbd.online/IN: loaded serial 2013071600
 zone localhost.localdomain/IN: loaded serial 0
-zone ns1.flamelancer.com/IN: loaded serial 2013071600
+zone ns1.bulksmsbd.online/IN: loaded serial 2013071600
 all zones loaded
 running
-zone ns2.flamelancer.com/IN: sending notifies (serial 2013071600)
-zone ns1.flamelancer.com/IN: sending notifies (serial 2013071600)
-zone access.flamelancer.com/IN: sending notifies (serial 2022062900)
+zone ns2.bulksmsbd.online/IN: sending notifies (serial 2013071600)
+zone ns1.bulksmsbd.online/IN: sending notifies (serial 2013071600)
+zone access.bulksmsbd.online/IN: sending notifies (serial 2022062900)
 managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
 resolver priming query complete
 received control channel command 'stop'
@@ -107,18 +107,18 @@ no longer listening on ::1#53
 exiting
 managed-keys-zone: loaded serial 5
 zone 0.in-addr.arpa/IN: loaded serial 0
-zone access.flamelancer.com/IN: loaded serial 2022062900
+zone access.bulksmsbd.online/IN: loaded serial 2022062900
 zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
 zone localhost.localdomain/IN: loaded serial 0
 zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
-zone ns1.flamelancer.com/IN: loaded serial 2013071600
-zone ns2.flamelancer.com/IN: loaded serial 2013071600
+zone ns1.bulksmsbd.online/IN: loaded serial 2013071600
+zone ns2.bulksmsbd.online/IN: loaded serial 2013071600
 zone localhost/IN: loaded serial 0
 all zones loaded
 running
-zone ns1.flamelancer.com/IN: sending notifies (serial 2013071600)
-zone access.flamelancer.com/IN: sending notifies (serial 2022062900)
-zone ns2.flamelancer.com/IN: sending notifies (serial 2013071600)
+zone ns1.bulksmsbd.online/IN: sending notifies (serial 2013071600)
+zone access.bulksmsbd.online/IN: sending notifies (serial 2022062900)
+zone ns2.bulksmsbd.online/IN: sending notifies (serial 2013071600)
 managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
 resolver priming query complete
 client @0x7f5c540b7690 185.180.143.147#55981 (testip.internet-census.org): query (cache) 'testip.internet-census.org/A/IN' denied
